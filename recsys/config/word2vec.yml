@@ -1,0 +1,13 @@
+model_path: "./recsys/modeling/word2vec"
+model_name: "Word2Vec" # "FastText"
+version_name: "v07"
+
+dt_start: "20200101"
+dt_end: "20210531"
+data_dir: "./recsys/data/dressipi_recsys2022/"
+
+embedding_dim: 128
+window: 5
+cutoff: 1
+epochs: 100
+add_tar_item: True
